@@ -45,7 +45,7 @@ Run the analyzer on a log file:
 python main.py [log_file_path]
 ```
 
-If no file is specified, it defaults to `fail.log` in the project root.
+If no file is specified, it defaults to `.\/sample_logs\/failure.log` in the project root.
 
 Example:
 ```
@@ -74,7 +74,6 @@ Paste your test log into the text area and click "Analyze" for interactive analy
 
 - Python 3.8+
 - OpenAI API key
-- Internet connection for API calls
 
 ## License
 

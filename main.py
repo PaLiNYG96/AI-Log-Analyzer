@@ -4,7 +4,7 @@ from analyze import analyze_failure
 
 def main():
     if len(sys.argv) < 2:
-        file_path = ".\/sample_logs\/failure.log "
+        file_path = ".\/sample_logs\/failure.log"
     else:
         file_path = sys.argv[1]
 
